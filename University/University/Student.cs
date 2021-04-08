@@ -9,6 +9,6 @@ namespace University
     class Student : Grant
     {
         public string NameStudent;
-        public int course { get; set; }
+        public int YearOfEducation { get; set; }
     }
 }
