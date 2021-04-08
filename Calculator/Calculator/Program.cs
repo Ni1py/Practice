@@ -16,24 +16,24 @@ namespace Calculator
 			string number2 = Console.ReadLine();
 			Console.Write("Enter the calculation operation: ");
 			string operation = Console.ReadLine();
-			int CalculationResult = 0;
+			int сalculationResult = 0;
 			if (operation == "+")
 			{
-				CalculationResult = Convert.ToInt32(number1) + Convert.ToInt32(number2);
+				сalculationResult = Convert.ToInt32(number1) + Convert.ToInt32(number2);
 			}
 			if (operation == "-")
 			{
-				CalculationResult = Convert.ToInt32(number1) - Convert.ToInt32(number2);
+				сalculationResult = Convert.ToInt32(number1) - Convert.ToInt32(number2);
 			}
 			if (operation == "*")
 			{
-				CalculationResult = Convert.ToInt32(number1) * Convert.ToInt32(number2);
+				сalculationResult = Convert.ToInt32(number1) * Convert.ToInt32(number2);
 			}
 			if (operation == "/")
 			{
-				CalculationResult = Convert.ToInt32(number1) / Convert.ToInt32(number2);
+				сalculationResult = Convert.ToInt32(number1) / Convert.ToInt32(number2);
 			}
-			Console.WriteLine($"{number1} {operation} {number2} = {CalculationResult}");
+			Console.WriteLine($"{number1} {operation} {number2} = {сalculationResult}");
 			}
 	}
 }
