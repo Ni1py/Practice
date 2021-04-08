@@ -8,7 +8,7 @@ namespace University
 {
     interface ISubject
     {
-        string NameTeacher { get; set; }
+        string TeacherName { get; set; }
         string Subject { get; set; }
         void Test( int mark );
     }

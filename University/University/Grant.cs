@@ -9,7 +9,7 @@ namespace University
     public abstract class Grant : ISubject
     {
         private bool exam;
-        public string NameTeacher { get; set; }
+        public string TeacherName { get; set; }
         public string Subject { get; set; }
         public void Test( int mark )
         {
