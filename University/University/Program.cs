@@ -11,6 +11,7 @@ namespace University
             Console.WriteLine( $"Student: {vova.NameStudent}" );
             vova.YearOfEducation = 2;
             if ( ( vova.YearOfEducation > 5 ) || ( vova.YearOfEducation < 1 ) ) Console.WriteLine( "There is no such course" );
+
             else Console.WriteLine( $"Course: {vova.YearOfEducation}" );
             vova.TeacherName = "Sergey Eduardovich";
             vova.Subject = "Mathematical analysis";
