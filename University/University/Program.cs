@@ -18,7 +18,7 @@ namespace University
             Console.Write( $"{vova.NameStudent} passed the threshold? " );
             vova.Test(200);
             Console.Write( $"Will {vova.NameStudent} have a scholarship? " );
-            vova.AddingStipend();
+            vova.Finance();
             Console.ReadKey();
         }
     }
