@@ -25,7 +25,7 @@ namespace University
             }
             Console.WriteLine( $"Total score: {mark}" );
         }
-        public void Pay()
+        public void PayAStipend()
         {
             if (exam)
             {
