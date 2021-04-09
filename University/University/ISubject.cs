@@ -10,6 +10,6 @@ namespace University
     {
         string TeacherName { get; set; }
         string Subject { get; set; }
-        void Test( int mark );
+        void CheckTheExamThreshold( int mark );
     }
 }
