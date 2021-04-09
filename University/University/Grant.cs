@@ -25,7 +25,7 @@ namespace University
             }
             Console.WriteLine( $"Total score: {mark}" );
         }
-        public void Finance()
+        public void Pay()
         {
             if (exam)
             {
