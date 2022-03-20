@@ -12,10 +12,13 @@ namespace Calculator
 		{
 			Console.Write("Enter first number: ");
 			string number1 = Console.ReadLine();
+
 			Console.Write("Enter second number: ");
 			string number2 = Console.ReadLine();
+
 			Console.Write("Enter the calculation operation: ");
 			string operation = Console.ReadLine();
+
 			int сalculationResult = 0;
 			if (operation == "+")
 			{
@@ -33,7 +36,8 @@ namespace Calculator
 			{
 				сalculationResult = Convert.ToInt32(number1) / Convert.ToInt32(number2);
 			}
+
 			Console.WriteLine($"{number1} {operation} {number2} = {сalculationResult}");
-			}
+		}
 	}
 }
